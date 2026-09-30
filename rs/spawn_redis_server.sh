@@ -1,0 +1,1 @@
+exec cargo run --project ${0%/*}/Redis.Server/Redis.Server.csproj -- "$@"
