@@ -1,1 +1,1 @@
-exec cargo run --project ${0%/*}/Redis.Server/Redis.Server.csproj -- "$@"
+exec cargo run --quiet --release --manifest-path $(dirname $0)/Cargo.toml -- "$@"
