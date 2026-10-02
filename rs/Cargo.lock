@@ -56,7 +56,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-server"
+name = "redis-clone"
 version = "0.1.0"
 dependencies = [
  "anyhow",
